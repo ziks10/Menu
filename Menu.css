@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(menu.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 985px;
+}
+.menu-wrapper{
+	width:100%;
+	height:42px;
+	background: rgb(155, 236, 232);
+}
+.menu{
+    height: 44px;
+    width: 100%;
+    margin-left: 3px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    border-left: 2px rgb(119, 187, 119);
+    border-right: 2px rgb(119, 187, 119);
+    height: 40px;
+    float: left;
+    width: 138px;
+    background:rgb(157, 158, 90);
+    line-height:40px;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.menu ul li a:hover{
+    color: black;
+    transition: 1s;
+    background: white;
+    display: block;
+}
+.menu ul li:last-child{
+	border-right:none;
+}
+.menu ul li:first-child{
+	border-left:none;
+}
+.menu ul ul{
+    display: none;
+    position: absolute;
+}
+.menu ul ul li a{
+    color: black;
+    background: rgb(255, 105, 105);
+}
+.menu ul li:hover>ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 138px;
+    top: 0px;
+}
+.menu ul ul ul li a{
+    color: black;
+    background: #dfff87;
+}
+.menu ul ul ul ul li a{
+    color: black;
+    background: #4fffad;
+}
+.menu ul ul ul ul ul li a{
+    color: black;
+    background: #42a4ff;
+}
+.menu ul ul ul ul ul ul li a{
+    color: black;
+    background: #668300;
+}
+.menu ul ul ul ul ul ul ul li a{
+	color:#000000;
+	background:rgb(255, 105, 105);
+}
+.menu ul ul ul ul ul ul ul ul li a{
+	color:black;
+	background:#dfff87;
+}
+.menu ul ul ul ul ul ul ul ul ul li a{
+	color:black;
+	background: #4fffad;
+}
+.menu ul ul ul ul ul ul ul ul ul ul li a{
+	color:black;
+	background:#42a4ff;
+}
+.menu ul ul ul ul ul ul ul{
+	margin-left:138px;
+	top: -160px;
+}
+.last{
+	height:200px;
+	width:200px;
+    display: none;
+    box-sizing: border-box;
+}
+.menu ul ul ul ul ul ul ul ul ul ul ul{
+	margin-left:-550px;
+	top: -10px;
+}
+.menu ul ul ul ul ul ul ul ul ul ul ul li a{
+	color:#000000;
+	margin:0px 20px 0px 20px;
+    background-color: white;
+}
+.menu ul ul ul ul ul ul ul ul ul li:hover>ul{
+	display:block;
+}
+.fa-newspaper-o{
+    margin-right: 5px;
+}
+.fa-home{
+    margin-right: 5px;
+}
+.fa-user{
+    margin-right: 5px;
+}
+.fa-map{
+    margin-right: 5px;
+}
+.fa-low-vision{
+    margin-right: 5px;
+}
+.fa-picture-o{
+    margin-right: 5px;
+}
+.fa-phone{
+    margin-right: 5px;
+}
+.fa-trademark{
+    margin-right: 5px;
+}
+.fa-money{
+    margin-right: 5px;
+}
+.fa-buysellads{
+    margin-right: 5px;
+}
+.fa-search{
+    margin-right: 5px;
+}
